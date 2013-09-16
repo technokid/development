@@ -15,7 +15,7 @@
 			/*
 			* Фиксируем окно
 			* */
-			jQuery(this).addClass('popupWindow');
+			jQuery(this).addClass('popupWindow').prepend('<div class="close-label">X</div>');
 			jQuery(this).css({"width": options.defaultWidth+"px", "height":options.defaultHeight+"px"});
  			jQuery(this).wrap('<div class="wrap_popup"></div>');
 			jQuery('.wrap_popup').prepend('<div class="popup-bg"></div>');
@@ -51,5 +51,17 @@
 			jQuery(this).css('display', 'block');
  		};
 		return this.each(make);
+	};
+	/*
+	* Скролл страници вверх
+	* */
+	jQuery.fn.scrollToTop = function(){
+		return this.each(function(i){
+			jQuery(this).addClass('totopButton');
+			jQuery(this).click(function() {
+				jQuery('html, body').animate({ scrollTop:0 }, 'slow}');
+				return false;
+			});
+		});
 	};
 })(jQuery);

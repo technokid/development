@@ -16,9 +16,5 @@
 	position: absolute;
 	z-index: 1002;
 }
-.popupWindow .order-form label {
-	display: block;
-	float: left;
-	line-height: 20px;
-	width: 150px;
-}
+.popupWindow .close-label {cursor:pointer;}
+.totopButton{cursor:pointer;}
