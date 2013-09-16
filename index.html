@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My page</title>
-    <link rel="stylesheet" href="/css/main.css" type="text/css" />
-    <link rel="stylesheet" href="/css/jquery.css" type="text/css" />
-    <script src="/js/jquery-1.9.1.js" type="text/javascript"></script>
-    <script src="/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+	<title>dsUI plugin</title>
+	<link rel="stylesheet" href="style/dsui.css" type="text/css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/dsui.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.popup').popup();
+		});
+	</script>
 </head>
 <body>
-    <div id="main">
-
-    </div>
+	<div class="main">
+		<div class="popup"></div>
+	</div>
 </body>
 </html>
