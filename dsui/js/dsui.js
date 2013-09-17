@@ -15,26 +15,32 @@
 			/*
 			* Фиксируем окно
 			* */
-			jQuery(this).addClass('popupWindow').prepend('<div class="close-label">X</div>');
-			jQuery(this).css({"width": options.defaultWidth+"px", "height":options.defaultHeight+"px"});
- 			jQuery(this).wrap('<div class="wrap_popup"></div>');
+			var popupInt = jQuery(this);
+			popupInt.addClass('popupWindow').prepend('<div class="close-label">X</div>');
+			popupInt.css({"width": options.defaultWidth+"px", "height":options.defaultHeight+"px"}).wrap('<div class="wrap_popup"></div>');
 			jQuery('.wrap_popup').prepend('<div class="popup-bg"></div>');
- 			var element = jQuery(this);
-			var width = element.css('width');
-			var topPadding = (jQuery(window).height() - element.height())/2;
-			element.stop().animate({top: jQuery(window).scrollTop() + topPadding});
+			/*
+			*  выставляем окно по центру(по высоте)
+			* */
+			var width = popupInt.css('width');
+			var topPadding = (jQuery(window).height() - popupInt.height())/2;
+			popupInt.stop().animate({top: jQuery(window).scrollTop() + topPadding});
 			jQuery(window).scroll(function() {
-				element.stop().animate({top: jQuery(window).scrollTop() + topPadding});
+				popupInt.stop().animate({top: jQuery(window).scrollTop() + topPadding});
 			});
-			var mainWidth = (jQuery(window).width() - jQuery(this).width()) / 2;
-			jQuery(this).css({"margin-left":mainWidth+'px'});
+			/*
+			* выставляем окно по центру(по ширине)
+			* */
+			var mainWidth = (jQuery(window).width() - popupInt.width()) / 2;
+			popupInt.css({"margin-left":mainWidth+'px'});
 			/*
 			* Событие для закрытия окна
 			* */
 			jQuery('.popup-bg, .close-label').click(function(){
 				jQuery('.popup-bg').css('display', 'none');
 				jQuery(this).css('display', 'none');
-				jQuery('.close-label').remove();
+				jQuery('.close-label, .popup-bg').remove();
+				popupInt.unwrap();
 			});
 			/**/
 			if(jQuery('body').width() > jQuery(window).width())
@@ -49,7 +55,7 @@
 
 			jQuery('.popup-bg').css('opacity',options.opacity);
 			jQuery('.popup-bg').css('display', 'block');
-			jQuery(this).css('display', 'block');
+			popupInt.css('display', 'block');
  		};
 		return this.each(make);
 	};
