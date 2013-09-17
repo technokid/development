@@ -34,6 +34,7 @@
 			jQuery('.popup-bg, .close-label').click(function(){
 				jQuery('.popup-bg').css('display', 'none');
 				jQuery(this).css('display', 'none');
+				jQuery('.close-label').remove();
 			});
 			/**/
 			if(jQuery('body').width() > jQuery(window).width())
