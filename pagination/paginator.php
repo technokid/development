@@ -47,7 +47,7 @@ class Paginator{
 
 	/*возвращает предел для источника данных, назвав get_start метод и передав количество элементов на странице*/
 	public function get_limit(){
-		return "LIMIT ".$this->_perPage." offset ".$this->get_start();
+		return "LIMIT ".$this->_perPage." offset ".$this->get_start();// если используется mysql заменить строчку на return "LIMIT ".$this->get_start().",$this->_perPage";
 	}
 
 	/*создать HTML ссылки для навигации по набору данных*/
@@ -70,7 +70,7 @@ class Paginator{
 			if ($this->_page > 1)
 				$pagination.= "<a href='".$path."$this->_instance=$prev"."$ext' ".$onclick.">« Предидущая</a>";
 			else
-				$pagination.= "<span class='disabled'>« previous</span>";
+				$pagination.= "<span class='disabled'>« Предидущая</span>";
 
 			if ($lastpage < 7 + ($adjacents * 2))
 			{
@@ -131,7 +131,7 @@ class Paginator{
 			if ($this->_page < $counter - 1)
 				$pagination.= "<a href='".$path."$this->_instance=$next"."$ext' ".$onclick.">Следующая »</a>";
 			else
-				$pagination.= "<span class='disabled'>next »</span>";
+				$pagination.= "<span class='disabled'>Следующая »</span>";
 			$pagination.= "</div>\n";
 		}
 		return $pagination;
