@@ -17,4 +17,134 @@
 	z-index: 1002;
 }
 .popupWindow .close-label {cursor:pointer;}
+/* ---------------------- scrolltotop ------------------------- */
 .totopButton{cursor:pointer;}
+/* ---------------------------------- form -------------------------------- */
+/*uticket dsUI forms css*/
+.dsUIInput {
+	border: 1px solid #F7941E;
+	color: #333333;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	height: 26px;
+	padding: 1px 5px;
+	width: 230px;
+}
+.dsUIHidden {
+	opacity:0;
+	z-index:-1;
+	position:relative;
+}
+.dsUIWrapper {
+	position:relative;
+	vertical-align:top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+.dsUIWrapper select {
+	margin:0;
+	padding:0;
+}
+.dsUISelectWrapper {
+	height: 30px;
+	left:0px;
+	top:0px;
+	z-index:3;
+	position:absolute;
+}
+.dsUIWrapper iframe {
+	position:absolute;
+	z-index:1;
+	width:100%;
+	left:0px;
+	top:0px;
+}
+.dsUISelectWrapper .dsUISelectText {
+	height:22px;
+	line-height: 16px;
+	padding: 6px 5px 0 5px;
+	border:solid 1px #f7941e;
+	overflow:hidden;
+	float:none;
+	background:#ffffff;
+	position:absolute;
+	z-index:100;
+	white-space: nowrap;
+}
+.dsUISelectWrapper .dsUISelectOpen {
+	width: 30px;
+	height: 30px;
+	background-color: #f7941e;
+	background-image:url(../images/icons_30x30px.png);
+	background-repeat: no-repeat;
+	background-position:-90px 0;
+	z-index:100;
+	display:block;
+	position:absolute;
+	right:0px;
+	cursor:pointer;
+}
+.dsUISelectWrapper ul {
+	top: 30px;
+	background-color: #ffffff;
+	border:solid 1px #f7941e;
+	border-top:none;
+	position:absolute;
+	left:0px;
+	list-style:none;
+	display: none;
+	margin:0;
+	padding:0;
+	overflow-y:auto;
+	z-index:100;
+	/*height: 130px;*/
+	/*width: 125px;*/
+}
+.dsUISelectWrapper ul a {
+	color:#333333;
+	background-color: #ffffff;
+	display:block;
+	padding:5px;
+	text-decoration:none;
+}
+.dsUISelectWrapper ul a:hover {
+	background:#f7941e;
+	color:#ffffff;
+	text-shadow:0px 1px 5px rgba(32, 32, 32, 0.3);
+}
+.dsUIFocus {
+	border: dotted 1px #666666;
+}
+
+/*dsUI radio buttons*/
+.jRadioWrapper {
+	float: left;
+	z-index: 2;
+}
+.dsUIRadio {
+	background:url(../images/radio-button.png) center top no-repeat;
+	height: 13px;
+	width: 13px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	cursor:pointer;
+	vertical-align:middle;
+	border: none;
+}
+/*dsUI checkboxes*/
+.dsUICheckbox {
+	background:url(../images/checkbox.png) center top no-repeat;
+	height: 15px;
+	width: 15px;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	z-index:2;
+	cursor:pointer;
+	border: none;
+}
+/*checked, used for both radio buttons and checkboxes*/
+.dsUIChecked {
+	background-position: center bottom;
+}
