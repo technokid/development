@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\ProductInterface</OriginalElement>
+  <nodes>
+    <node x="-159.0" y="-134.0">\Keyboard</node>
+    <node x="-244.0" y="-291.0">\ProductInterface</node>
+    <node x="-405.0" y="-134.0">\Mouse</node>
+    <node x="-251.5" y="88.5">\ProductFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Keyboard" target="\ProductInterface">
+      <point x="0.0" y="-94.5" />
+      <point x="-46.0" y="-159.0" />
+      <point x="-131.5" y="-159.0" />
+      <point x="37.5" y="53.5" />
+    </edge>
+    <edge source="\Mouse" target="\ProductInterface">
+      <point x="0.0" y="-94.5" />
+      <point x="-292.0" y="-159.0" />
+      <point x="-206.5" y="-159.0" />
+      <point x="-37.5" y="53.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="28.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
