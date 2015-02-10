@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ba8aaa-4ee6-4257-8157-30f2ae72226e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Proxy/Proxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Data Access Object/DAO.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="development.iws" />
@@ -50,13 +50,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Proxy.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Proxy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pattern/Proxy/Proxy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9361702" vertical-offset="462" max-vertical-offset="1098">
+            <state vertical-scroll-proportion="-19.555555" vertical-offset="462" max-vertical-offset="1098">
               <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
               <folding>
                 <element signature="e#6#104#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAO.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern/Data Access Object/DAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.82978725" vertical-offset="594" max-vertical-offset="1170">
+              <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+              <folding>
+                <element signature="e#6#104#0#PHP" expanded="true" />
+                <marker date="1423608171296" expanded="true" signature="447:479" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -98,6 +111,7 @@
         <option value="$PROJECT_DIR$/pattern/Flyweight/Flyweight.php" />
         <option value="$PROJECT_DIR$/pattern/Facade/Facade.php" />
         <option value="$PROJECT_DIR$/pattern/Proxy/Proxy.php" />
+        <option value="$PROJECT_DIR$/pattern/Data Access Object/DAO.php" />
       </list>
     </option>
   </component>
@@ -170,25 +184,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facade" />
+              <option name="myItemId" value="Data Access Object" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,7 +313,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423608074656</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add proxy pattern">
+      <created>1423608109608</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1423608109608</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -371,7 +373,8 @@
     <MESSAGE value="Add Decorator pattern" />
     <MESSAGE value="Add Flyweight pattern" />
     <MESSAGE value="Add Facade pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Facade pattern" />
+    <MESSAGE value="Add proxy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add proxy pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -518,10 +521,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern/Proxy/Proxy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9361702" vertical-offset="462" max-vertical-offset="1098">
+        <state vertical-scroll-proportion="-19.555555" vertical-offset="462" max-vertical-offset="1098">
           <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
           <folding>
             <element signature="e#6#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Data Access Object/DAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82978725" vertical-offset="594" max-vertical-offset="1170">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+          <folding>
+            <element signature="e#6#104#0#PHP" expanded="true" />
+            <marker date="1423608171296" expanded="true" signature="447:479" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
