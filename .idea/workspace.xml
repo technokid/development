@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ba8aaa-4ee6-4257-8157-30f2ae72226e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/Event Channel/Event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/Functional design/Functional.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/Immutable/Immutable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/Marker interface/Marker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/Object pool/Object_pool.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pattern/Property Container/Property.php" afterPath="$PROJECT_DIR$/pattern/Prototype/Prototype.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Bridge/Bridge.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="development.iws" />
@@ -33,24 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pagination/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="756">
+            <state vertical-scroll-proportion="0.8172589" vertical-offset="165" max-vertical-offset="756">
               <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Prototype.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pattern/Prototype/Prototype.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.6595745" vertical-offset="66" max-vertical-offset="1674">
-              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-              <folding>
-                <element signature="e#6#104#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +68,7 @@
         <option value="$PROJECT_DIR$/pagination/style.css" />
         <option value="$PROJECT_DIR$/pattern/Singleton/Singleton.php" />
         <option value="$PROJECT_DIR$/pattern/Prototype/Prototype.php" />
+        <option value="$PROJECT_DIR$/pattern/Bridge/Bridge.php" />
       </list>
     </option>
   </component>
@@ -157,7 +141,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Prototype" />
+              <option name="myItemId" value="Bridge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,7 +234,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423607432701</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="remove empty patterns. Add Prototype pattern">
+      <created>1423607639720</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1423607639720</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -298,7 +288,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="updates" />
     <MESSAGE value="Add adapter pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add adapter pattern" />
+    <MESSAGE value="remove empty patterns. Add Prototype pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove empty patterns. Add Prototype pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -377,11 +368,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pagination/style.css">
+    <entry file="file://$PROJECT_DIR$/pattern/Bridge/Bridge.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="756">
-          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
-          <folding />
+        <state vertical-scroll-proportion="0.9361702" vertical-offset="498" max-vertical-offset="1134">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <element signature="e#6#104#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -392,6 +385,14 @@
           <folding>
             <element signature="e#6#104#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagination/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8172589" vertical-offset="165" max-vertical-offset="756">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
