@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ba8aaa-4ee6-4257-8157-30f2ae72226e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Flyweight/Flyweight.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Facade/Facade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="development.iws" />
@@ -38,23 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Composite.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern/Composite/Composite.php">
+      <file leaf-file-name="Facade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern/Facade/Facade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4444447" vertical-offset="456" max-vertical-offset="1458">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding>
-                <element signature="e#6#104#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Flyweight.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pattern/Flyweight/Flyweight.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28723404" vertical-offset="0" max-vertical-offset="1980">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.9255319" vertical-offset="0" max-vertical-offset="792">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="e#6#104#0#PHP" expanded="true" />
               </folding>
@@ -96,6 +84,7 @@
         <option value="$PROJECT_DIR$/pattern/Composite/Composite.php" />
         <option value="$PROJECT_DIR$/pattern/Decorator/Decorator.php" />
         <option value="$PROJECT_DIR$/pattern/Flyweight/Flyweight.php" />
+        <option value="$PROJECT_DIR$/pattern/Facade/Facade.php" />
       </list>
     </option>
   </component>
@@ -168,7 +157,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Flyweight" />
+              <option name="myItemId" value="Facade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,7 +274,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423607961778</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Flyweight pattern">
+      <created>1423608004632</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1423608004632</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -337,7 +332,8 @@
     <MESSAGE value="Add Bridge pattern" />
     <MESSAGE value="Add composite pattern" />
     <MESSAGE value="Add Decorator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Decorator pattern" />
+    <MESSAGE value="Add Flyweight pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Flyweight pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -436,14 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pagination/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="756">
-          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pattern/Decorator/Decorator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70212764" vertical-offset="0" max-vertical-offset="1512">
@@ -466,6 +454,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28723404" vertical-offset="0" max-vertical-offset="1980">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#6#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagination/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="756">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Facade/Facade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9255319" vertical-offset="0" max-vertical-offset="792">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="e#6#104#0#PHP" expanded="true" />
           </folding>
