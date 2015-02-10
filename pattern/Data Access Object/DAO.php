@@ -26,7 +26,7 @@ abstract class Dao_Abstract
 	}
 	public function findAll($value, $key = NULL)
 	{
-		//..
+		//$sql = '';
 	}
 	public function insert($assocArray)
 	{
