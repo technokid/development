@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ba8aaa-4ee6-4257-8157-30f2ae72226e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Facade/Facade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Proxy/Proxy.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="development.iws" />
@@ -38,11 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Facade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Facade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pattern/Facade/Facade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9255319" vertical-offset="0" max-vertical-offset="792">
+            <state vertical-scroll-proportion="-19.333334" vertical-offset="0" max-vertical-offset="792">
               <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="e#6#104#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Proxy.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern/Proxy/Proxy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9361702" vertical-offset="462" max-vertical-offset="1098">
+              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
               <folding>
                 <element signature="e#6#104#0#PHP" expanded="true" />
               </folding>
@@ -85,6 +97,7 @@
         <option value="$PROJECT_DIR$/pattern/Decorator/Decorator.php" />
         <option value="$PROJECT_DIR$/pattern/Flyweight/Flyweight.php" />
         <option value="$PROJECT_DIR$/pattern/Facade/Facade.php" />
+        <option value="$PROJECT_DIR$/pattern/Proxy/Proxy.php" />
       </list>
     </option>
   </component>
@@ -140,6 +153,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proxy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,7 +311,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423608004632</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Facade pattern">
+      <created>1423608074656</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1423608074656</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -333,7 +370,8 @@
     <MESSAGE value="Add composite pattern" />
     <MESSAGE value="Add Decorator pattern" />
     <MESSAGE value="Add Flyweight pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Flyweight pattern" />
+    <MESSAGE value="Add Facade pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Facade pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -470,8 +508,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern/Facade/Facade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9255319" vertical-offset="0" max-vertical-offset="792">
+        <state vertical-scroll-proportion="-19.333334" vertical-offset="0" max-vertical-offset="792">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Proxy/Proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9361702" vertical-offset="462" max-vertical-offset="1098">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
           <folding>
             <element signature="e#6#104#0#PHP" expanded="true" />
           </folding>
