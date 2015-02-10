@@ -1,25 +1,36 @@
 <?php
 /**
- * User: Dudman
-*/
+ * Created by Serhii Dudik.
+ * User: dudman
+ * Date: 11.02.15
+ * E-mail: duda902@gmail.com
+ */
 
-class Singleton {
-	protected static $instance;
+class Registry
+{
+	private static $_instance = null;
+	private $_data = array();
 
 	public static function getInstance()
 	{
-		if ( !isset(self::$instance) ) {
-			$class = __CLASS__;
-			self::$instance = new $class();
-			//echo "<p>Первай запуск</p>";
-		} else {
-			//echo "<p>уже запущен</p>";
+		if (self::$_instance) {
+			return self::$_instance;
 		}
-
-		return self::$instance;
+		return (self::$_instance = new self());
 	}
 
-	private function __construct() { }  // Защита от создания через new Singleton
-	private function __clone()     { }  // Защита от создания через клонирование
-	private function __wakeup()    { }  // Защита от создания через unserialize
+	public function  __set($name,  $value)
+	{
+		$this->_data[$name] = $value;
+	}
+	public function  __get($name)
+	{
+		return (isset ($this->_data[$name]) ? $this->_data[$name] : null);
+	}
+
 }
+/**
+ * Usage
+ */
+Registry::getInstance()->aVar = 'aValue';
+var_dump(Registry::getInstance()->aVar);

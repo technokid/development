@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ba8aaa-4ee6-4257-8157-30f2ae72226e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/development.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Abstract Factory/Abstract_Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Builder/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Delegation pattern/Delegation(more-difficult).php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Delegation pattern/Delegation(nontrivial).php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Delegation pattern/Delegation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Event Channel/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Factory Method/Factory_method.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Functional design/Functional.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Immutable/Immutable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Marker interface/Marker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Object pool/Object_pool.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/Property Container/Property.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/SimpleFactory/Keyboard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/SimpleFactory/Mouse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/SimpleFactory/ProductFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/SimpleFactory/ProductInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/SimpleFactory/diagram.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/SimpleFactory/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/Singleton/Db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/Singleton/Products.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pattern/Singleton/index.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/Singleton/Singleton.php" afterPath="$PROJECT_DIR$/pattern/Singleton/Singleton.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="development.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,12 +59,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adapter.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pattern/Adapter/Adapter.php">
+      <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern/Event Channel/Event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86170214" vertical-offset="216" max-vertical-offset="810">
-              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="216">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Singleton.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern/Singleton/Singleton.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22340426" vertical-offset="0" max-vertical-offset="738">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#104#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +101,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/pagination/style.css" />
         <option value="$PROJECT_DIR$/pattern/Adapter/Adapter.php" />
+        <option value="$PROJECT_DIR$/pattern/Abstract Factory/Abstract_Factory.php" />
+        <option value="$PROJECT_DIR$/pattern/Factory Method/Factory_method.php" />
+        <option value="$PROJECT_DIR$/pattern/Builder/Builder.php" />
+        <option value="$PROJECT_DIR$/pattern/Delegation pattern/Delegation.php" />
+        <option value="$PROJECT_DIR$/pattern/Delegation pattern/Delegation(more-difficult).php" />
+        <option value="$PROJECT_DIR$/pattern/Delegation pattern/Delegation(nontrivial).php" />
+        <option value="$PROJECT_DIR$/pagination/style.css" />
+        <option value="$PROJECT_DIR$/pattern/Singleton/Singleton.php" />
       </list>
     </option>
   </component>
@@ -92,7 +126,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -133,6 +167,24 @@
               <option name="myItemId" value="pattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Singleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -148,7 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Adapter" />
+              <option name="myItemId" value="Event Channel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -201,22 +253,8 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -243,7 +281,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423606326075</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add adapter pattern">
+      <created>1423606405284</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1423606405284</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -298,6 +342,108 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pattern/Adapter/Adapter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.0" vertical-offset="216" max-vertical-offset="810">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Abstract Factory/Abstract_Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5212767" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Factory Method/Factory_method.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9361702" vertical-offset="642" max-vertical-offset="1278">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Builder/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80851066" vertical-offset="1614" max-vertical-offset="2178">
+          <caret line="115" column="29" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Delegation pattern/Delegation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9361702" vertical-offset="228" max-vertical-offset="864">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Delegation pattern/Delegation(more-difficult).php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9361702" vertical-offset="660" max-vertical-offset="1296">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding>
+            <element signature="e#6#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Delegation pattern/Delegation(nontrivial).php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80851066" vertical-offset="1974" max-vertical-offset="2538">
+          <caret line="135" column="14" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
+          <folding>
+            <element signature="e#6#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Functional design/Functional.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Immutable/Immutable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Object pool/Object_pool.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Marker interface/Marker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Property Container/Property.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pagination/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="756">
@@ -306,11 +452,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern/Adapter/Adapter.php">
+    <entry file="file://$PROJECT_DIR$/pattern/Event Channel/Event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86170214" vertical-offset="216" max-vertical-offset="810">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/Singleton/Singleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22340426" vertical-offset="0" max-vertical-offset="738">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#104#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
